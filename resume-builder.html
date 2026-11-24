@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jordan Reinecke, Creative Technologist, résumé</title>
+<meta name="description" content="Jordan Reinecke: Creative Technologist.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="color-scheme" content="dark light">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jordan Reinecke, Creative Technologist, résumé">
+<meta property="og:description" content="Jordan Reinecke: Creative Technologist.">
+<meta property="og:image" content="https://mtadta.github.io/img/og-card-builder.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://mtadta.github.io/img/og-card-builder.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23000%22%2F%3E%3Cpath%20d%3D%22M12%2046V18h12q10%200%2010%209%200%207-6%208.5L36%2046M44%2018v28%22%20fill%3D%22none%22%20stroke%3D%22%2319e3ff%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22square%22%2F%3E%3Cpath%20d%3D%22M50%2018v28%22%20stroke%3D%22%23ff2d55%22%20stroke-width%3D%225%22%2F%3E%3C%2Fsvg%3E">
+<link rel="preload" href="fonts/bebas-neue-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Bebas Neue";src:url(fonts/bebas-neue-latin.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Space Mono";src:url(fonts/space-mono-latin.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Archivo";src:url(fonts/archivo-latin.woff2) format("woff2");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+
+:root{--fg:#0a1c26;--muted:#4a6370;--rule:#c9d5db;--accent:#007d92;--bg:#fbfcfd;color-scheme:light dark}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--fg:#e8f0f3;--muted:#8aa2ad;--rule:#22333d;--accent:#19e3ff;--bg:#07121a}}
+:root[data-theme="light"]{--fg:#0a1c26;--muted:#4a6370;--rule:#c9d5db;--accent:#007d92;--bg:#fbfcfd}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 1rem/1.5 "Archivo",ui-sans-serif,system-ui,sans-serif;font-variant-ligatures:none;font-feature-settings:"liga" 0,"clig" 0}
+a{color:inherit;text-decoration-color:var(--accent);text-underline-offset:.18em}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.cv{max-width:46rem;margin:0 auto;padding:clamp(1.5rem,5vw,3.5rem) 16px 4rem}
+h1{font:400 clamp(2.8rem,8vw,4rem)/.9 "Bebas Neue","Arial Narrow",sans-serif;margin:0}
+header p{margin:.3rem 0 0;color:var(--muted)}
+header p.label{color:var(--fg);font-weight:500}
+.contact span{white-space:nowrap}
+.noprint.nav{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.9rem}
+.noprint.nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;border:1px solid var(--muted);color:var(--fg);text-decoration:none;font-size:.9rem}
+.noprint.nav a:hover{border-color:var(--accent);color:var(--accent)}
+.job p.tools{color:var(--muted);font-size:.9rem}
+@media screen and (max-width:600px){
+  
+  .contact{font-size:0}
+  .contact span{display:block;font-size:1rem;white-space:normal}
+  .contact span a{display:inline-flex;align-items:center;min-height:44px}
+  .job p.tools{margin-top:.4rem}
+}
+.draft-flag{position:sticky;top:0;z-index:5;margin:0;padding:.45rem 16px;background:#c4102f;color:#fff;font:.8rem/1.4 ui-monospace,Menlo,monospace}
+.draft-flag b{margin-right:.6rem}
+.draft-flag span{display:block;max-width:46rem;margin-inline:auto}
+.foot{margin-top:2rem;color:var(--muted);font-size:.85rem}
+h1 .aka{font:400 1rem/1.3 "Archivo",ui-sans-serif,system-ui,sans-serif;color:var(--muted);letter-spacing:0;white-space:nowrap}
+h2{font:600 .95rem/1.2 "Archivo",sans-serif;margin:2rem 0 .6rem;padding-bottom:.3rem;border-bottom:1px solid var(--rule)}
+h3{font-size:1rem;font-weight:600;margin:0}
+.job{margin-bottom:1rem}
+.job p{margin:.15rem 0 0}
+.when{color:var(--muted);font-size:.9rem}
+ul{margin:.4rem 0 0;padding-left:1.1rem}
+li{margin-bottom:.25rem}
+@media print{
+  
+  @page{size:Letter;margin:.34in .55in}
+  :root{--fg:#000;--muted:#333;--rule:#bbb;--bg:#fff}
+  body{font-size:8.9pt;line-height:1.13}
+  .cv{padding:0;max-width:none}
+  .noprint,.noprint.nav{display:none}
+  h1{font-size:22pt}
+  header p{margin-top:1pt}
+  h2{margin-top:3pt;margin-bottom:1.5pt;padding-bottom:1.5pt;font-size:10.5pt}
+  h3{font-size:9.5pt}
+  .when{font-size:inherit}
+  section > p{margin:0}
+  .job p.tools{color:#333;font-size:8.4pt}
+  .job{margin-bottom:2pt}
+  ul{margin-top:2pt}
+  li{margin-bottom:.5pt}
+  a{text-decoration:none}
+  .job{break-inside:avoid}
+  .job h3{display:inline}
+  .job p.when{display:inline;margin-left:.6em}
+  .foot{margin-top:1pt;font-size:7.5pt}
+  h1 .aka{font-size:9pt}
+  .draft-flag{position:static;background:none;color:#000;border:1px solid #000;padding:2pt 6pt;font-size:7.5pt;margin-bottom:4pt}
+  .draft-flag b{margin-right:.35em}
+}
+</style>
+</head>
+<body>
+
+<main class="cv">
+  <header>
+    <h1>Jordan Reinecke <span class="aka">(performs as Jordan Rein / REIN)</span></h1>
+    <p class="label">Creative Technologist</p>
+    <p class="contact"><span>Remote, Richmond, VA (Eastern Time)</span> | <span><a href="mailto:jordan@jordanreinmusic.com">jordan@jordanreinmusic.com</a></span> | <span><a href="https://www.jordanreinmusic.com/">jordanreinmusic.com</a></span></p>
+    <p class="noprint nav"><a href="index.html">Back to the work</a><a href="resume-builder.pdf" download="Jordan-Reinecke-Creative-Technologist.pdf">Download the PDF</a></p>
+  </header>
+  <section><h2>Summary</h2><p>Creative technologist from Richmond, VA, working remote. I build the tools creative work needs: a Python server with a REST/JSON API and a Clone Hero mod (C#/Unity) for my live rhythm-game show, a multi-agent content engine, and automated video workflows. I also run marketing and media at Lindy Fralin Pickups. Agents write most of the code. I direct them, test the result and decide what ships.</p></section>
+  <section><h2>Experience</h2>
+  <div class="job"><h3>Marketing and Media, Lindy Fralin Pickups</h3><p class="when">Apr 2025 – Present</p><ul><li>Grew Fralin's videos to 10M+ views in one year.</li><li>Edit the pickup-rewind video series in two formats: vertical for Shorts, Reels and TikTok, wide for YouTube.</li><li>Developed a creative automation engine to grow the account.</li></ul></div>
+  <div class="job"><h3>Lead guitarist, singer, songwriter, Jordan Rein (artist)</h3><p class="when">Mar 2019 – Present</p><ul><li>Signed to Shockoe Records. Released Getcha Back (2024), Thinking of You and TEDDY BEAR feat. Lunch $pecial (2025), Fantasy, 65432 and Triple Entendre (2026).</li><li>600+ shows since 2019, solo, trio and full band.</li></ul></div>
+  <div class="job"><h3>On-camera talent, Freelance</h3><p class="when">2025</p><ul><li>Booked through The Martin Agency for GEICO, Axe, Skrewball and Subway.</li></ul></div>
+  <div class="job"><h3>Creative Strategy Intern, Tilt Creative + Production</h3><p class="when">2024</p><ul><li>Worked on Snake Water's creative strategy with Tilt under Scot Crooker: brought in the account, wrote the treatment and spot script.</li></ul></div>
+  <div class="job"><h3>Social Media Manager &amp; Instructor, School of Rock</h3><p class="when">Feb 2022 – May 2025</p></div>
+  <div class="job"><h3>Producer, Watching Grass Grow TV</h3><p class="when">2022</p><ul><li>Produced on set. Got hired to build the world's fastest flying lawnmower (RVA Mag, 2023).</li></ul></div>
+  <div class="job"><h3>Label Designer, Blue Ridge Bucha</h3><p class="when">2021</p><ul><li>Designed their hard kombucha labels.</li></ul></div>
+  </section>
+  <section><h2>Selected projects</h2>
+  <div class="job"><h3>Guitar Hero Live, live rhythm-game show</h3><p>Designed the UX/UI and directed the build of a live show where the crowd joins the band. Shipped a Clone Hero mod (C#/Unity), a Python REST/JSON server, phone sign-up and queue, a live Top 5 board, stage control and DMX lighting driven by game events.</p><p class="tools">Tools: UX/UI design, C#/Unity, Python, REST/JSON API, DMX lighting (OSC), Chrome DevTools Protocol. Code: <a href="https://github.com/MTADTA/ghl-stage-manager">github.com/MTADTA/ghl-stage-manager</a></p></div>
+  <div class="job"><h3>Content Engine, content marketing system</h3><p>Built a multi-agent content system with a human approval gate: agents research, draft and schedule, I rate every draft, and my ratings rewrite their guide.</p><p class="tools">Tools: Python, unittest, Buffer and Zernio APIs, Claude Code, Codex. Code: <a href="https://github.com/MTADTA/media-engine">github.com/MTADTA/media-engine</a></p></div>
+  <div class="job"><h3>Supercaster</h3><p>Shot, edited and presented twelve Shorts about my guitar: 1.33M views on YouTube. Modelled the guitar in parametric CAD with FE/BEM simulation for CNC.</p><p class="tools">Tools: Parametric CAD, Python, three.js, FE/BEM simulation. Code: <a href="https://github.com/MTADTA/supercaster">github.com/MTADTA/supercaster</a></p></div>
+  </section>
+  <section><h2>Education</h2><div class="job"><h3>Virginia Commonwealth University</h3><p class="when">2019 – 2023</p><p>Bachelor of Interdisciplinary Studies (BIS), Media Entrepreneurship. Certificates: Product Innovation; Venture Creation (both da Vinci Center); Advanced Media Production Technology (AMPT).</p></div></section>
+  
+  <section><h2>Skills</h2><ul><li>Engineering, AI-assisted: Python (HTTP servers, CLI packages, unittest), TypeScript/Deno, Front end (HTML/CSS/JS), REST/JSON APIs, Chrome DevTools Protocol, three.js/WebGL, C#/Unity modding, Git</li><li>Agentic AI: Claude Code, Codex, Multi-agent orchestration, MCP, Agent skills, Workflow automation, Human-in-the-loop gates, Model routing, LLM output QA, Local LLMs</li><li>Design: UX/UI design, Product design, Blender, CAD, Thumbnails, Illustrator, 3D printing, CNC</li><li>Video: Editing, DaVinci Resolve (multicam, color, scripting), CapCut, ffmpeg, Short-form vertical video (Shorts, Reels, TikTok), Creative direction, DP, Color grading, Content distribution, Final Cut Pro</li><li>Marketing: Content strategy, On camera, Copywriting, SEO and advertising</li></ul></section>
+  <p class="foot">Jordan Reinecke. Résumé for creative technology roles.</p>
+</main>
+</body>
+</html>
